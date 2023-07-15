@@ -29,5 +29,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with: 
           name: python_version_artifect
-          path: python_version_artifect
+          path: ${{ matrix.python-version }}.txt
           
